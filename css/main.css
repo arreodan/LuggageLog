@@ -98,3 +98,42 @@ footer{
 .appLogo{
     max-width: 400px;
 }
+
+.inputControl{
+  width: 25rem;
+  padding-top: .3rem;
+  padding-bottom: .3rem;
+  border-radius: .75rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border: 2px solid rgb(167, 167, 167);
+}
+.btn-add{
+  padding-top: .35rem;
+  padding-bottom: .35rem;
+  border-radius: .75rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 8rem;
+}
+
+.checkItem{
+  color: rgb(56, 199, 56);
+  font-size: 3rem;
+    transition: .25s ease-in-out;
+}
+.removeItem{
+  color: rgb(196, 29, 29);
+  font-size: 3rem;
+    transition: .25s ease-in-out;
+}
+.checkItem:hover{
+  color: rgb(33, 151, 33);
+  font-size: 3rem;
+
+}
+.removeItem:hover{
+  color: rgb(122, 12, 12);
+  font-size: 3rem;
+
+}
