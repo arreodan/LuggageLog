@@ -13,6 +13,12 @@
   --da-plain-color: #FDFFFC;
   --da-background-color: var(--da-plain-color);
 
+  --bs-bg-color: #F4F1DE;
+  --bs-accent-color: #A7C5EB;
+  --bs-dark-color: #333333;
+  --bs-cta-color: #8B2635;
+
+
   /* nav bar colors */
   --da-nav-bg-color: var(--da-dark-color);
   --da-nav-toggler-color: var(--da-highlight-color);

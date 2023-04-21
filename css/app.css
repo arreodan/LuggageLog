@@ -1,0 +1,91 @@
+:root {
+  /* fonts */
+  --da-title-font: "Bebas Neue", sans-serif;
+  --da-subtitle-font: "Fira Sans", sans-serif;
+  --da-heading-font: "Bebas Neue", sans-serif;
+  --da-body-font: "Roboto", sans-serif;
+  /* colors */
+  --da-primary-color: #2a628f;
+  --da-secondary-color: #3e92cc;
+  --da-highlight-color: #fb8500;
+  --da-dark-color: #16324f;
+  --da-light-color: #256c9e;
+  --da-plain-color: #fdfffc;
+  --da-background-color: var(--da-plain-color);
+
+  --bs-bg-color: #ecece7;
+  --bs-accent-color: #a7c5eb;
+  --bs-dark-color: #333333;
+  --bs-cta-color: #8b2635;
+  --bs-cta-hover-color: #742f39;
+  --bs-ft-hover: #dbdbd5;
+
+  /* nav bar colors */
+  --da-nav-bg-color: var(--da-dark-color);
+  --da-nav-toggler-color: var(--da-highlight-color);
+  --da-nav-toggler-glow: rgba(250, 225, 120, 0.55);
+
+  /* form colors */
+  --da-formfocus-border-color: var(--da-secondary-color);
+  --da-formfocus-shadow: var(--da-primary-color);
+  --da-form-background-color: var(--da-dark-color);
+
+  /* text styles */
+  --da-title-color: var(--da-dark-color);
+  --da-font-size: 1.2rem;
+  --da-font-weight: 400;
+  --da-line-height: 1.5rem;
+}
+
+.bsbody {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--da-body-font);
+  font-size: var(--da-font-size);
+  font-weight: var(--da-font-weight);
+  line-height: var(--da-line-height);
+
+  color: var(--bs-dark-color);
+  background: var(--bs-bg-color);
+}
+.socialicons {
+  font-size: 2rem;
+  color: var(--bs-bg-color);
+  transition: color 0.25s;
+  padding-left: 0.65rem;
+}
+
+.socialicons:hover {
+  color: var(--bs-ft-hover);
+}
+
+#mainNav {
+  background: var(--bs-cta-color);
+}
+
+footer {
+  background: var(--bs-cta-color);
+  color: var(--bs-bg-color);
+}
+
+.cta {
+  font-size: 1.4rem;
+  --bs-btn-bg: var(--bs-cta-color);
+  --bs-btn-border-color: var(--bs-dark-color);
+  --bs-btn-hover-bg: var(--bs-cta-hover-color);
+  --bs-btn-hover-border-color: var(--bs-dark-color);
+  --bs-btn-hover-color: var(--bs-ft-hover);
+  --bs-btn-active-bg: var(--bs-cta-color);
+  border: none;
+}
+
+.btn-more {
+  font-size: 1.2rem;
+  --bs-btn-bg: var(--bs-cta-color);
+  --bs-btn-border-color: var(--bs-dark-color);
+  --bs-btn-hover-bg: var(--bs-cta-hover-color);
+  --bs-btn-hover-border-color: var(--bs-dark-color);
+  --bs-btn-hover-color: var(--bs-ft-hover);
+  --bs-btn-active-bg: var(--bs-cta-color);
+  border: none;
+}
